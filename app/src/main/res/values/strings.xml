@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Infinite Minesweeper</string>
+    <string name="app_title">Infinite\nMinesweeper</string>
+    <string name="new_game">New game</string>
+    <string name="settings">Settings</string>
+    <string name="score">SCORE</string>
+    <string name="blocks">BLOCKS</string>
+    <string name="flags">FLAGS</string>
+    <string name="best">BEST</string>
+    <string name="lives">LIVES</string>
+    <string name="mistakes">MISTAKES</string>
+    <string name="zero">0</string>
+    <string name="how_to_play">How to play</string>
+    <string name="survival">Survival</string>
+    <string name="explore">Explore</string>
+    <string name="gauntlet">Gauntlet</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="explore_option">Explore\nInfinite lives, fixed mine density</string>
+    <string name="survival_option">Survival\nExtra lives every 5 blocks, fixed mine density</string>
+    <string name="gauntlet_option">Gauntlet\nSurvival rules, increasing mine density</string>
+    <string name="mode_progress">%1$s · %2$s</string>
+    <string name="explore_progress">No game over · Mines stay revealed</string>
+    <string name="haptic_feedback">Haptic feedback</string>
+    <string name="autosave_summary">Your current game, camera position, and zoom are saved automatically.</string>
+    <string name="reset_scores">Reset best scores</string>
+    <string name="reset_scores_title">Reset all best scores?</string>
+    <string name="reset_scores_message">This clears the best scores for Explore, Survival, and Gauntlet. Your current game will not be changed.</string>
+    <string name="scores_reset">Best scores reset.</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Apply</string>
+    <string name="restore_error">The saved game could not be restored. A new game was started.</string>
+    <string name="controls_hint">Tap to reveal · Hold to flag · Drag to pan · Pinch to zoom</string>
+    <string name="board_description">Infinite Minesweeper board. Drag to pan and pinch to zoom.</string>
+    <string name="rules_title">How to play</string>
+    <string name="rules">Reveal every safe tile in an 8 × 8 block to earn 100 points. A number shows how many mines touch that tile, including across block edges.\n\nTap to reveal and long-press to flag. Tap an open number when its neighboring flags match to chord and reveal the others. Drag to explore and pinch to zoom.\n\nExplore: no game over and fixed 10-mine blocks. Hitting a mine reveals it without flagging it and adds one to your mistakes counter.\n\nSurvival: earn an extra life every 5 cleared blocks. A mine consumes one life and is automatically flagged; without a life, it ends the run. Every block has 10 mines.\n\nGauntlet: Survival rules, but blocks gain one mine per ring farther from the start, from 10 up to 24 mines.\n\nYour first reveal and its surrounding tiles are safe. Games save automatically, and best scores are stored separately for each mode.</string>
+    <string name="got_it">Got it</string>
+    <string name="block_cleared">Block cleared! +%1$d</string>
+    <string name="extra_life_earned">Bonus! You earned an extra life.</string>
+    <string name="extra_life_used">Extra life used! The mine was flagged.</string>
+    <string name="explore_mine_revealed">Mine revealed. Keep exploring!</string>
+    <string name="mine_hit">Boom! Start a new game to try again.</string>
+    <plurals name="next_life">
+        <item quantity="one">Next bonus life in %1$d block</item>
+        <item quantity="other">Next bonus life in %1$d blocks</item>
+    </plurals>
+</resources>
